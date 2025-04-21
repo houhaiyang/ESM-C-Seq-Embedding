@@ -12,6 +12,8 @@ ESM-C项目：https://github.com/SPYfighting/esm-C
 ```python
 model_path = "/home/share/.../EvolutionaryScale/esmc-600m-2024-12/data/weights/esmc_600m_2024_12_v0.pth"
 ```
+下载可参考：https://blog.csdn.net/qq_43611382/article/details/144453821
+
 - 已经配置好ESM-C所需conda环境，并加载指定CUDA cudnn Gcc nccl openblas cmake等。
 
 - 只提取CLS作为序列的embedding。
