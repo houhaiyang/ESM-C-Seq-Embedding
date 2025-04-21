@@ -12,7 +12,7 @@ from pathlib import Path
 from tqdm import tqdm
 
 
-MODEL_PATH = "/home/share/huadjyin/home/houhaiyang/HF_HOME/transformers/EvolutionaryScale/esmc-600m-2024-12/data/weights/esmc_600m_2024_12_v0.pth"
+MODEL_PATH = "/home/.../houhaiyang/HF_HOME/transformers/EvolutionaryScale/esmc-600m-2024-12/data/weights/esmc_600m_2024_12_v0.pth"
 
 
 def load_esmc_model(model_path: str, device: str = "cuda"):
