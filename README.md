@@ -30,7 +30,7 @@ cd /home/.../houhaiyang/method/ESM-C
 source ~/bashrc/ESM-C-py310-torch241-cu118.bashrc
 python faa2emb_CLS.py --input test_proteins.faa --outdir embeddings/test/
 ```
-再执行 merge_emb.py，合并 Embeddings：
+- 再执行 merge_emb.py，合并 Embeddings：
 ```bash
 python merge_emb.py --input test_proteins.faa  --embeddings_dir ./embeddings/test/ --output ./embeddings/test_proteins_merged_embeddings.csv.gz
 ```
