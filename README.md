@@ -1,8 +1,10 @@
 # 使用ESM-C 600M生成seq embeddings
 
+2025-04-21
+
 ESM-C项目：https://github.com/SPYfighting/esm-C
 在ESM-C模型中，每个氨基酸残基（即序列中的每个字符）都会生成一个对应的embedding向量。
-因此，输出的embedding行数应该等于输入蛋白质序列的长度（氨基酸数量），而不是固定的1行。
+因此，输出的embedding行数应该有关于输入蛋白质序列的长度（氨基酸数量），而不是像ESM2固定的1行。
 对于长度为L的蛋白质序列，ESM-C的输出形状为（L+2）×d，包含CLS和EOS标记。
 
 ### 前提：
