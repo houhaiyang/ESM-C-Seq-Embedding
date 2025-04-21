@@ -30,3 +30,5 @@ python faa2emb_CLS.py --input test_proteins.faa --outdir embeddings/test/
 ```bash
 python merge_emb.py --input test_proteins.faa  --embeddings_dir ./embeddings/test/ --output ./embeddings/test_proteins_merged_embeddings.csv.gz
 ```
+
+最终结果为：./embeddings/test_proteins_merged_embeddings.csv.gz 
